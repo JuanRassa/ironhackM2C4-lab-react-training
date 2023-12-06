@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+/* MY STYLES */
+/* ITERATION 1: ID CARD */
+.iteration1 {
+  width: fit-content;
+  margin: 20px auto;
+  border: 1px solid blue;
+  padding: 20px;
+  background-color: rgba(0, 0, 255, 0.356);
+}
+.idCard {
+  display: flex;
+  gap: 10px;
+  border: 1px solid black;
+  max-width: 400px;
+
+  margin: 0 auto;
+  padding: 10px;
+}
+.idCard p {
+  margin: 0;
+  font-weight: 700;
+}
+.idCard span {
+  font-weight: 400;
+}
+.idCard .pictureContainer {
+}
+.idCard img {
+}
+.idCard .infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
